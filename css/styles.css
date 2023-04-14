@@ -1,0 +1,163 @@
+#header-list {
+    list-style-type: none;
+    display: flex; 
+    gap: 8px; 
+    padding: 5px 80px; 
+    margin: 15px;  
+}
+
+#header-logo {
+    margin-right: auto; 
+}
+
+.header {
+    background-color: #1F2937; 
+    width: 100%; 
+}
+
+a {
+    color: white; 
+    text-decoration: none;;
+}
+
+html {
+    height: 100%; 
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+#header-logo { 
+    font-weight: bold; 
+}
+  
+
+body {
+    margin: 0; 
+    display: flex; 
+    flex-direction: column;
+    height: 100%; 
+    align-items: center; 
+}
+
+.content-main {
+    display:flex; 
+    padding: 20px 95px; 
+    padding-bottom: 100px; 
+    gap: 30px; 
+    background-color: #1F2937;
+    color: white; 
+    justify-content: center; 
+}
+
+.content-main-left {
+    flex-grow: 0; 
+}
+
+#title-description {
+    font-weight: normal;
+    font-size: large; 
+}
+
+.content-main-right {
+    flex: 0 0 500px; 
+}
+
+.main-right-image {
+    max-width: 100%;
+    height: auto; 
+}
+
+.information-container {
+    display:flex; 
+    gap: 20px; 
+    justify-content: center;
+    list-style-type: none;
+    text-align: center; 
+    flex-wrap: wrap; 
+    padding: 20px 100px; 
+}
+
+.information-container > * {
+    flex: auto; 
+}
+
+.content-information-title {
+    text-align: center; 
+    font-size: 36px;
+    font-weight: 1000; 
+    color: #1F2937; 
+}
+
+.quote {
+    padding: 100px 25%;  
+}
+
+.action-call {
+    margin-bottom: auto; 
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #1F2937;
+    padding: 20px; 
+    color: white; 
+    text-align: center; 
+    flex: 0 0 auto; 
+    width: 100%; 
+}
+
+#quote-author {
+    text-align: end; 
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 0; 
+    padding: 5px 20px; 
+    color: white ;
+    font-size: medium; 
+}
+
+.feature-image {
+    height: 180px; 
+    width: 180px; 
+    border-color: #3882F6;
+    border-width: 4px;
+    border-radius: 10px;
+    border-style: solid; 
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 32px; 
+    font-weight: light; 
+    font-style: italic; 
+    color: #1F2937; 
+}
+
+.action-call {
+    background-color: #3882F6;
+    color: white; 
+    margin: 60px 0; 
+    padding: 20px 70px; 
+    display: flex; 
+    gap: 30px; 
+    align-items: center;
+    border-radius: 5px;
+}
+
+.action-call * {
+    margin: 10px; 
+    padding: 0; 
+}
+
+.action-call > button {
+    border-style: solid; 
+    border-color: white; 
+    border-width: 3px; 
+    padding: 5px 20px;
+}
